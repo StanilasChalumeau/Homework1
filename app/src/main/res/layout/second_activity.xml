@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_change_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+
+
+
+
+    <EditText
+        android:id="@+id/red_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="20dp"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:hint="@string/my_hint"/>
+
+    <TextView
+        android:id="@+id/redTxtID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/red_value"
+        android:textAlignment="center"
+        android:layout_alignBottom="@id/red_input"/>
+
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/green_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="100dp"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:hint="@string/my_hint"/>
+
+    <TextView
+        android:id="@+id/greenTxtID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/redTxtID"
+        android:layout_marginTop="100dp"
+        android:text="@string/green_value"
+        android:textAlignment="center"
+        android:layout_alignBottom="@id/green_input"/>
+
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/blue_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="180dp"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:hint="@string/my_hint" />
+
+    <TextView
+        android:id="@+id/blueTxtID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:text="@string/blue_value"
+        android:textAlignment="center"
+        android:layout_alignBottom="@id/blue_input"
+        android:layout_alignStart="@id/redTxtID" />
+
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/button_okID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="100dp"
+        android:text="@string/ok_button"
+        android:onClick="onOKButtonClick"/>
+
+    <Button
+        android:id="@+id/button_cancelID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button_okID"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="50dp"
+        android:text="@string/cancel_button"
+        android:onClick="onCANCELButtonClick"/>
+
+
+</RelativeLayout>

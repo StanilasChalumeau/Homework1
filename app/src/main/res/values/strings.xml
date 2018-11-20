@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Homework1</string>
+    <string name="action_settings">Settings</string>
+    <string name="change_background">CHANGE BACKGROUND</string>
+    <string name="change_buttons">CHANGE BUTTONS</string>
+    <string name="change_front">CHANGE FRONT</string>
+    <string name="red_value">R</string>
+    <string name="green_value">G</string>
+    <string name="blue_value">B</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">CANCEL</string>
+    <string name="my_hint">Value from 0 to 255</string>
+</resources>
